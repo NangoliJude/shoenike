@@ -1,0 +1,24 @@
+import React, { Component } from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import Main from './main';
+import './App.css';
+
+
+
+
+
+class App extends Component{
+    render(){
+        return(
+        <main>
+            <div className="Wrapper">
+                 <BrowserRouter>
+                 <Main/>
+               </BrowserRouter>
+            </div>
+        </main>
+        )
+    }
+};
+
+export default App;
